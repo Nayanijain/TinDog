@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TinDog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!--  Scroll reveal-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <br><br>
+
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+
+    <a class="navbar-brand" href="">tindog</a>
+
+    <button class="navbar-toggler border-white d-lg-none" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ml-auto mt-0 mt-lg-0">
+        <li class="nav-item ml-auto pr-lg-5">
+          <a class="nav-link" href="#title">Home</a>
+        </li>
+        <li class="nav-item ml-auto pr-lg-5">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item ml-auto pr-lg-5">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item ml-auto pr-lg-5">
+          <a class="nav-link" href="#cta">Download</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Title -->
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <br><br><br>
+          <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in" class="big-heading">
+            Meet new and interesting dogs nearby.
+          </h1>
+          <button type="button" data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in" class="btn btn-dark btn-lg download-button">
+            <i class="fab fa-apple"></i> Download
+          </button>
+          <button type="button" data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in" class="btn btn-outline-light btn-lg download-button">
+            <i class="fab fa-google-play"></i> Download
+          </button>
+        </div>
+
+        <div class="col-lg-6">
+          <br><br><br>
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+      <br><br>
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+
+      <br><br>
+
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <br><br>
+
+    <div class="">
+      <div class="container">
+        <div class="row">
+
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out" class="col-md-4">
+            <div class="pricingtable">
+              <h3 class="title">Chihuahua</h3>
+              <div class="price-value">
+                <span class="month">Per month</span>
+                <span class="amount"><span class="currency">$</span>Free</span>
+              </div>
+              <ul class="pricing-content">
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li>Unlimited App Usage</li>
+                <br>
+              </ul>
+              <a href="#" class="pricingtable-signup">Sign Up</a>
+            </div>
+          </div>
+
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out" class="col-md-4">
+            <div class="pricingtable">
+              <h3 class="title">Labrador</h3>
+              <div class="price-value">
+                <span class="month">Per month</span>
+                <span class="amount"><span class="currency">$</span>49
+                </span>
+              </div>
+              <ul class="pricing-content">
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+                <br>
+              </ul>
+              <a href="#" class="pricingtable-signup">Sign Up</a>
+            </div>
+          </div>
+
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out" class="col-md-4">
+            <div class="pricingtable">
+              <h3 class="title">Mastiff</h3>
+              <div class="price-value">
+                <span class="month">Per month</span>
+                <span class="amount"><span class="currency">$</span>99
+                </span>
+              </div>
+              <ul class="pricing-content">
+                <li>Pirority Listing</li>
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <a href="#" class="pricingtable-signup">Sign Up</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" class="download-button btn btn-lg btn-dark" type="button">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-out" class="btn btn-outline-light btn-lg download-button" type="button">
+        <i class="fab fa-google-play"></i> Download
+      </button>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="row">
+      <div class="column">
+        <img class="dogs_img" src="images/dogs/1.jpg" alt="" style="width:100%">
+      </div>
+      <div class="column">
+        <img class="dogs_img" src="images/dogs/2.jpeg" alt="" style="width:100%">
+      </div>
+      <div class="column">
+        <img class="dogs_img" src="images/dogs/3.jpg" alt="" style="width:100%">
+      </div>
+      <div class="column">
+        <img class="dogs_img" src="images/dogs/4.jpg" alt="" style="width:100%">
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #fc7f7f;" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 abc">
+          <h3 data-aos="fade-in" data-aos-duration="1500" data-aos-easing="ease-in-out" style="color: white;">
+            <strong>REACH OUT &</strong>
+          </h3>
+          <h1 data-aos="fade-in" data-aos-duration="1500" data-aos-easing="ease-in-out" style="color: white;">
+            <strong>Connect With Us</strong>
+          </h1>
+          <br>
+          <p style="color: white; padding-right: 15px;">Stay up to date with everything we have to offer here at Tindog! By
+            subscribing to our email you will be the first to know about all of our exclusive offers
+            as well as all the dog lifestyle tips and tricks we can find!</p>
+        </div>
+        <div class="col-md-6 def">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name"></label>
+              <input type="text" class="form-control" placeholder="Name" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email"></label>
+              <input type="email" class="form-control" placeholder="Email" id="email">
+            </div>
+            <br>
+            <div>
+              <textarea name="msg" rows="4" cols="48" placeholder="Message"></textarea>
+            </div>
+            <br>
+            <div class="checkbox" style="color: white;">
+              <label><input type="checkbox"><strong> Please tick to agree to be contacted.</strong> </label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary submit_btn"><strong>Send</strong></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <section id="footer">
+    <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" class="social-media mt-4">
+      <ul>
+        <li class="facebook-official">
+          <a target="_blank" href="https://www.facebook.com/">
+            <i class="fa fa-facebook-official" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="youtube-play">
+          <a target="_blank" href="https://www.youtube.com/">
+            <i class="fa fa-youtube-play" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="github">
+          <a target="_blank" href="https://github.com/">
+            <i class="fa fa-github" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="instagram">
+          <a target="_blank" href="https://www.instagram.com/">
+            <i class="fa fa-instagram" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="linkedin">
+          <a target="_blank" href="https://www.linkedin.com/in/">
+            <i class="fa fa-linkedin" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="twitter">
+          <a target="_blank" href="https://www.youtube.com/">
+            <i class="fa fa-twitter" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p>Copyright 2020 NayaniJain - All Rights Received</p>
+
+  </section>
+
+  <!--JS, Popper.js, and jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!---------------Aos------------------------->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
